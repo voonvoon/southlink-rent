@@ -363,7 +363,15 @@ margin-top: 20px;
 
 .agent-details {
   display: flex;  
+  justify-content:space-between;
+  align-items: center;
 
+}
+
+.agent-particulars > * {
+  font-size: 15px;
+  font-weight: 350;
+  text-align:left;
 }
   
 
@@ -372,8 +380,14 @@ margin-top: 20px;
   height: 170px;
   margin-left:300px;
   border-radius: 10%;
-  border: 1px dotted black;
   box-shadow: 3px 3px 3px #999;
+}
+
+.contact-icon-contact {
+  color:green;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .ownstyle {
@@ -434,6 +448,10 @@ margin-top: 20px;
 
   .agent-details {
     flex-direction: column;
+  }
+
+  .team-pro{
+    display: none;
   }
 
   .agent_pic {

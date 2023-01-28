@@ -6,19 +6,18 @@ const Contact = () => {
         <div>
             <h1>Contact US</h1>
             <hr/>
-            <h4>We are a team of professional agents specialize in Bangsar South.</h4>
+            <h4 className='team-pro'>We are a team of professional agents specialize in Bangsar South.</h4>
             <hr/>
-            <p>You may contact us at:</p>
+
             <div className='agent-details'>
-                <div>
+                <div className='agent-particulars'>
                     <p>Peter Wong</p>
                     <p>Ren No: REN 18361</p>
                     <p>Company: PROPNEX REALTY SDN BHD (E (1) 1800)</p>
                     <p>phone : 018-3795728</p>
                     <p>email: hvlifeasy@gmail.com</p>
                  
-                    <a href="https://wa.link/e9g91q" target="_blank" className="contact-icon">
-                    <br/>
+                    <a href="https://wa.link/e9g91q" target="_blank" className="contact-icon-contact">
                     <WhatsAppIcon/> WhatsApp Us</a>
                 </div>
 

@@ -15,7 +15,7 @@ const OwnerUpload = () => {
          A validation email will be sent to your email, once verified, owner will be able to upload their property in Dashboard.
          <br/> 
          Or property owner can just whatsapp us the details here: 
-         <a href="https://wa.link/i3336h" target="_blank" className="contact-icon">
+         <a href="https://wa.link/i3336h" target="_blank" className="contact-icon-contact">
         <br/>
         <br/>
          <WhatsAppIcon/> Provide property for rent</a>
