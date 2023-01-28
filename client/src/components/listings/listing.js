@@ -69,10 +69,9 @@ const Listing = () => {
                                         <BedroomParentIcon/> No. Bed Rooms : {listings.current.numberBedRooms}
                                     </div>
                                     <div className="listing-items-contact">
-                                        <div href="www.google.com">
-                                                <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon">
-                                                <WhatsAppIcon/> WhatsApp Us</a>
-                                        </div>
+                                            <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon">
+                                            <WhatsAppIcon/> WhatsApp Us</a>
+
                                     </div>
                                 </div>
                                 <div className="listing-info-container-2">

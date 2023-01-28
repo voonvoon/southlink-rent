@@ -17,7 +17,7 @@ const Contact = () => {
                     <p>phone : 018-3795728</p>
                     <p>email: hvlifeasy@gmail.com</p>
                  
-                        <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon">
+                    <a href="https://wa.link/e9g91q" target="_blank" className="contact-icon">
                     <br/>
                     <WhatsAppIcon/> WhatsApp Us</a>
                 </div>
