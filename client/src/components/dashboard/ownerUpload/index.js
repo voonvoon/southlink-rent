@@ -11,15 +11,17 @@ const OwnerUpload = () => {
             Register as user
         </Link> 
         <br/>
-         a validation email will be sent to your email, once verified, owner will be able to upload their property in Dashboard.
+        <br/>
+         A validation email will be sent to your email, once verified, owner will be able to upload their property in Dashboard.
          <br/> 
          Or property owner can just whatsapp us the details here: 
          <a href="https://wa.link/i3336h" target="_blank" className="contact-icon">
         <br/>
+        <br/>
          <WhatsAppIcon/> Provide property for rent</a>
         <br/>
         <br/>
-         **We assure you that your data will be protected and kept secure on our website.
+           <p className="data-protect-text"> **We assure you that your data will be protected and kept secure on our website.</p>
         </div>
 
          <br/>

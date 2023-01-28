@@ -14,9 +14,6 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import {
-    IconButton,
-} from '@mui/material'
 
 const Listing = () => {
     const listings = useSelector(state=>state.listings);
@@ -73,10 +70,8 @@ const Listing = () => {
                                     </div>
                                     <div className="listing-items-contact">
                                         <div href="www.google.com">
-                                            <IconButton>
-                                            <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon"><WhatsAppIcon/> Contact Agent</a>
-                                                
-                                            </IconButton>
+                                                <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon">
+                                                <WhatsAppIcon/> WhatsApp Us</a>
                                         </div>
                                     </div>
                                 </div>

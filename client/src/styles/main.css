@@ -387,7 +387,7 @@ margin-top: 20px;
   padding: 50px;
   font-size: 20px;
   font-weight: 400;
-  text-align:justify;
+  text-align:left;
   border: 1px dotted rgb(112, 109, 109);
   box-shadow: 1px 1px 1px #999;
 }
@@ -410,6 +410,10 @@ margin-top: 20px;
   font-weight: 700;
 }
 
+.data-protect-text{
+  font-size: 15px;
+  color: #17a2b8;
+}
 
 
 /* .articles_table .table-striped>tbody>tr:nth-of-type(odd)>* {
@@ -442,6 +446,8 @@ margin-top: 20px;
  }
 
 
+ 
+
 
  @media (max-width: 500px) {
   .copyright {
@@ -452,6 +458,12 @@ margin-top: 20px;
   .pic_block {
     width: 150px;
     height: 150px;
+  }
+ }
+
+ @media (max-width : 390px) {
+  .copyright {
+    font-size: 13px;
   }
  }
 

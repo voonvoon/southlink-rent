@@ -16,9 +16,10 @@ const Contact = () => {
                     <p>Company: PROPNEX REALTY SDN BHD (E (1) 1800)</p>
                     <p>phone : 018-3795728</p>
                     <p>email: hvlifeasy@gmail.com</p>
-                    <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon">
-                        <WhatsAppIcon/> WhatsApp Us
-                    </a>
+                 
+                        <a href="https:www.wa.link/7spspt" target="_blank" className="contact-icon">
+                    <br/>
+                    <WhatsAppIcon/> WhatsApp Us</a>
                 </div>
 
            
