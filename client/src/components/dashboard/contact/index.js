@@ -7,7 +7,6 @@ const Contact = () => {
             <h1>Contact US</h1>
             <hr/>
             <h4 className='team-pro'>We are a team of professional agents specialize in Bangsar South.</h4>
-            <hr/>
 
             <div className='agent-details'>
                 <div className='agent-particulars'>
