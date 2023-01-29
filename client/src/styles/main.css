@@ -57,7 +57,7 @@ nav .nav-link {
     left: 0;
     z-index: 1030;
     text-align: center;
-    background: red;
+    background: rgb(228, 91, 91);
     color: white;
 }
 
@@ -179,6 +179,7 @@ color: #525252;
   margin-top: 0px;
   margin-bottom: 0px !important;
   max-width: 100%;
+  padding:0;
 }
 
 .dash_layout nav{ 
@@ -391,7 +392,7 @@ margin-top: 20px;
 }
 
 .ownstyle {
-  min-width: 97vw;
+  min-width: 100vw;
   position: relative;
 }
 
@@ -456,6 +457,19 @@ margin-top: 20px;
   color: #17a2b8;
 }
 
+.verify-reminder {
+  font-size: 20px;
+  font-style: italic;
+  color: gray;
+}
+
+.announce-icon {
+  color: pink;
+}
+
+.smile-face {
+  color: rgb(4, 237, 66);
+}
 
 /* .articles_table .table-striped>tbody>tr:nth-of-type(odd)>* {
   color: white;
