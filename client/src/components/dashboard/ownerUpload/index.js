@@ -31,6 +31,7 @@ const OwnerUpload = () => {
 
          <br/>
             <footer class="footer">
+            <p className='footer-msg'>We assist both tenants and landlords in finding and renting units.</p>
                 <p class="copyright">
                     Copyright &copy; Rentbase All Right Reserved
                 </p>

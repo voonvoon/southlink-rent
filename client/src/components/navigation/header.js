@@ -56,11 +56,9 @@ const Header = () => {
             <div className='not_verified'> Not verified</div>
         : null } 
           <nav className= {`navbar fixed-top ${site.layout} nav_mother`}>
-          
                 <Link to='/' className='navbar-brand d-flex align-items-center fredoka_ff'>
                     Rentbase@Bangsar South
                 </Link>
-
                 <SideDrawer users={users} signOutUser={signOutUser}/>
             
           </nav>

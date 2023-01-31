@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <h1>Contact US</h1>
             <hr/>
-            <h4 className='team-pro'>We are a team of professional agents specialize in Bangsar South.</h4>
+            <h4 className='team-pro'>As a professional property agent, We assist both tenants and landlords in finding and renting units.</h4>
 
             <div className='agent-details'>
                 <div className='agent-particulars'>
@@ -30,9 +30,11 @@ const Contact = () => {
 
         <br/>
             <footer class="footer">
+            <p className='footer-msg'>We assist both tenants and landlords in finding and renting units.</p>
                 <p class="copyright">
                     Copyright &copy; Rentbase All Right Reserved
                 </p>
+                
             </footer>
         </>
     )

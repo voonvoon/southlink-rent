@@ -330,11 +330,14 @@ margin-top: 20px;
 
 .listing-info-container .listing-info-container-2 {
   width: 100%;
+  padding:10px;
   text-align:justify;
+  border: 0.5px dotted grey;
+
 
 }
 .listing-items{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   padding: 10px;
 }
@@ -354,8 +357,9 @@ margin-top: 20px;
 }
 
 .list-card-items-children{
-  padding: 3px;
-  font-size: 20px;
+  padding: 1px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .carousel-style {
@@ -438,7 +442,7 @@ margin-top: 20px;
   background-color: #e6e9eb;
   display: flex;
   align-items:center;
-  justify-content: center;
+  justify-content:space-between;
   padding: 1.5rem;
   position: fixed;
   bottom: 0;
@@ -446,6 +450,13 @@ margin-top: 20px;
   left: 0;
 }
 
+
+.footer-msg {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
 .copyright {
   margin-top: 10px;
   font-size: 15px;
@@ -532,6 +543,15 @@ margin-top: 20px;
   }
   .copyright {
     font-size: 13px;
+  }
+ }
+
+ @media (max-width :900px) {
+  .footer-msg{
+    display: none;
+  }
+  .footer {
+    justify-content: center;
   }
  }
 
