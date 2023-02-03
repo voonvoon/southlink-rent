@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
+import MetaTags from "../../../utils/helmet";
 
 const OwnerUpload = () => {
     return(
+    <>
+        <MetaTags/>
         <div className="upload-container">
                 <Link to='/' className='navbar-brand d-flex align-items-center fredoka_ff rentbase-logo'>
                     Rentbase@Bangsar South
@@ -37,7 +40,9 @@ const OwnerUpload = () => {
                 </p>
             </footer>
         </div>
+    </>
     )
+
 }
 
 export default OwnerUpload;

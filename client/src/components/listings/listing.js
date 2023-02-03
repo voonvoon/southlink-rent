@@ -5,6 +5,8 @@ import { Loader } from "../../utils/tools";
 import { useDispatch, useSelector } from 'react-redux';
 import { getListing } from "../../store/actions/listings";
 
+import MetaTags from "../../utils/helmet";
+
 //mui
 import SellIcon from '@mui/icons-material/Sell';
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
@@ -26,6 +28,7 @@ const Listing = () => {
 
     return(
         <>
+        <MetaTags/>
             { listings && listings.current ? 
                 <div className="article_container">
                     

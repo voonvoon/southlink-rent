@@ -1,8 +1,10 @@
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import MetaTags from '../../../utils/helmet';
 
 const Contact = () => {
     return(
         <>
+        <MetaTags />
         <div>
             <h1>Contact US</h1>
             <hr/>

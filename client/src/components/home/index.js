@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import MetaTags from '../../utils/helmet';
 
 //mui
 import Grid from '@mui/material/Grid';
@@ -27,6 +28,7 @@ const Home = () => {
 
     return(
         <>
+        <MetaTags/>
             <Grid container spacing={2} className="article_card">
                 { listings && listings.listings ? 
                     listings.listings.map(item=>(
