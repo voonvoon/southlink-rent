@@ -458,7 +458,7 @@ margin-top: 20px;
   font-size: 12px;
   font-weight: 400;
   font-style: italic;
-  padding: 15px;
+  padding: 5px;
 }
 .copyright {
   /* margin-top: 1px; */
@@ -579,7 +579,7 @@ margin-top: 20px;
   }
   .footer {
     justify-content: center;
-    height: 11rem;
+    height: 12rem;
     text-align: justify;
   }
  }

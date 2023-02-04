@@ -29,8 +29,15 @@ const Contact = () => {
             <hr/>
           
         </div>  
-
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+       
         <footer class="footer">
                 <p className='footer-msg'>Disclaimer:This website and its owners provide information on property rental list, but do not guarantee its accuracy, completeness, 
                         reliability, or availability. Use of the information is at your own risk. The website and its owners will not be liable
