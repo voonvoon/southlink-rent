@@ -52,7 +52,7 @@ const Listing = () => {
                         }
                         
                      
-                    <h2 className="mt-3 ">{listings.current.propName}</h2>
+                    <h1 className="mt-3 ">{listings.current.propName}</h1>
                     <div className="mt-3 content">
                         <div>
                             
