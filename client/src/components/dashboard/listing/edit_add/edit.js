@@ -153,7 +153,7 @@ const EditListing = () => {
                         {...formik.getFieldProps('description')}
                         {...errorHelper(formik,'description')}
                         multiline
-                        rows={4}
+                        rows={10}
                     />
 
                 </div>

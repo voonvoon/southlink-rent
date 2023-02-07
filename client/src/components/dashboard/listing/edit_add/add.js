@@ -138,7 +138,7 @@ const AddListing = () => {
                         {...formik.getFieldProps('description')}
                         {...errorHelper(formik,'description')}
                         multiline
-                        rows={4}
+                        rows={10}
                     />
 
                 </div>
@@ -154,6 +154,8 @@ const AddListing = () => {
                     />
 
                 </div>
+
+                
 
                 <div className='form-group'>
                     <TextField 

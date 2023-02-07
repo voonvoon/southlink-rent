@@ -77,8 +77,9 @@ const Listing = () => {
 
                                     </div>
                                 </div>
-                                <div className="listing-info-container-2">
-                                    {listings.current.description}
+                                <div className="listing-info-container-2" >
+
+                                    <div dangerouslySetInnerHTML={{ __html: listings.current.description.replace(/\n/g, '<br />') }} />
                                 </div>
                                 
                             </div>
