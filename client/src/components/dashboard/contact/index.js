@@ -1,5 +1,6 @@
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MetaTags from '../../../utils/helmet';
+import Button from '@mui/material/Button';
 
 const Contact = () => {
     return(
@@ -18,8 +19,11 @@ const Contact = () => {
                     <p>phone : 018-3795728</p>
                     <p>email: hvlifeasy@gmail.com</p>
                  
-                    <a href="https://wa.link/e9g91q" target="_blank" className="contact-icon-contact">
-                    <WhatsAppIcon/> WhatsApp Us</a>
+                  
+                    <Button variant="contained" color="success" size="small" className='mb-3'>
+                            <a href="https://wa.link/e9g91q" target="_blank" className="contact-icon-1">
+                            <WhatsAppIcon/> WhatsApp Us</a>
+                    </Button>
                 </div>
 
            

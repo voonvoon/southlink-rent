@@ -5,6 +5,8 @@ import MetaTags from '../../utils/helmet';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 
+
+
 //redux
 import { useDispatch, useSelector } from 'react-redux';
 import {homeLoadMore } from '../../store/actions/listings';
@@ -29,6 +31,7 @@ const Home = () => {
     return(
         <>
         <MetaTags/>
+
             <Grid container spacing={2} className="article_card">
                 { listings && listings.listings ? 
                     listings.listings.map(item=>(
@@ -38,6 +41,7 @@ const Home = () => {
                     ))
                 :null}
             </Grid>
+
             <hr/>
             <Button
                 variant='outlined'

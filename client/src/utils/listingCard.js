@@ -9,6 +9,11 @@ import {
     Button
 } from '@mui/material'
 
+//ante 
+import { Badge } from "antd";
+import moment from 'moment';
+
+
 import MapsHomeWorkIcon from '@mui/icons-material/MapsHomeWork';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import BedroomParentIcon from '@mui/icons-material/BedroomParent';
@@ -19,6 +24,7 @@ import WeekendIcon from '@mui/icons-material/Weekend';
 
 const ListingCard = ({listing}) => {
     return(
+    <Badge.Ribbon text={`since ${moment(listing.date).fromNow()}`} color="purple">
         <Card elevation={6}>
             <CardMedia 
                 style={{height:0,paddingTop:'56.25%'}}
@@ -72,6 +78,7 @@ const ListingCard = ({listing}) => {
                 </CardActions>
             
         </Card>
+    </Badge.Ribbon>
     )
 }
 

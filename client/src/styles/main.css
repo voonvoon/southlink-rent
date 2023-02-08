@@ -328,8 +328,8 @@ margin-top: 20px;
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-content: center;
+  align-items:flex-start;
+  align-content:flex-start;
 }
 
 .listing-info-container .listing-info-container-2 {
@@ -338,20 +338,24 @@ margin-top: 20px;
   margin:10px;
   text-align:justify;
   border: 0.5px dotted grey;
+  font-weight: 500;
+  font-style: italic;
 
 
 }
 .listing-items{
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
   padding: 10px;
 }
 
 .listing-info-container .contact-icon {
-  color:green;
-  font-size: 30px;
   font-weight: 700;
-  padding: 20px;
+  text-decoration: none;
+}
+
+.contact-icon-1 {
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -466,7 +470,8 @@ margin-top: 20px;
   font-size: 12px;
   font-weight: 400;
   font-style: italic;
-  padding: 5px;
+  padding: 10px;
+  text-align:center;
 }
 .copyright {
   /* margin-top: 1px; */
@@ -524,6 +529,11 @@ margin-top: 20px;
 
   .view_property_css {
     align-items:center;
+  }
+
+  .listing-info-container .listing-info-container-1 {
+    align-items:center;
+    align-content:center;
   }
  }
 

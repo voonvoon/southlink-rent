@@ -9,24 +9,19 @@ import { errorHelper, Loader } from '../../../../utils/tools';
 import { validation, formValues } from './validationSchema';
 
 //redux
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 //import { addListing } from '../../../../store/actions/listings';
 
 //MUI
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
-import Chip from '@mui/material/Chip';
-import Paper from '@mui/material/Paper';
-import InputBase from '@mui/material/InputBase';
-import IconButton from '@mui/material/IconButton';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import FormHelperText from '@mui/material/FormHelperText';
 
 import InputLabel from '@mui/material/InputLabel';
-import AddIcon from '@mui/icons-material/Add';
 //import { visuallyHidden } from '@mui/utils';
 
 //comp

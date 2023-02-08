@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 import MetaTags from "../../../utils/helmet";
+import Button from '@mui/material/Button';
 
 const OwnerUpload = () => {
     return(
@@ -23,10 +24,12 @@ const OwnerUpload = () => {
                     <br/> 
                     <br/>
                     Or property owner can just whatsapp us the details here: 
-                    <a href="https://wa.link/i3336h" target="_blank" className="contact-icon-contact">
                     <br/>
                     <br/>
-                    <WhatsAppIcon/> Provide property for rent</a>
+                    <Button variant="contained" color="success" size="small" className='mb-3'>
+                            <a href="https://wa.link/i3336h" target="_blank" className="contact-icon-1">
+                            <WhatsAppIcon/> Provide property for rent</a>
+                    </Button>
                     <br/>
                     <br/>
                     <p className="data-protect-text"> **We assure you that your data will be protected and kept secure on our website.</p>
