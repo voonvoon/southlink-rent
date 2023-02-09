@@ -26,9 +26,16 @@ const Listing = () => {
     const dispatch = useDispatch();
     const { id } = useParams();  // cuz we use id as keyword in route.
 
+    
     useEffect(()=>{
         dispatch(getListing(id))
     },[id, dispatch])
+
+    const openWhatsAppWithMessage = (phoneNumber, message1, message2) => {
+        const combinedMessage = `${message1}\n\n${message2}`;
+        window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(combinedMessage)}`, '_blank');
+      }
+      
 
     return(
         <>
@@ -40,8 +47,8 @@ const Listing = () => {
                             listings.current.images? 
                             <Carousel className="carousel-style">
                             {listings.current.images.map((item)=>(
-                            
-                              <Carousel.Item key={item._id}>
+                            //${item._id}-${Date.now()}
+                              <Carousel.Item key={item}>
                                     <img
                                         className="d-block w-80 image"
                                         style={{
@@ -79,10 +86,15 @@ const Listing = () => {
                                         <UpdateIcon/> Posted on : {moment(listings.current.date).format('DD/MM/YYYY')}
                                     </div>
 
-                                    <Button variant="contained" color="success" size="large">
+                                    {/* <Button variant="contained" color="success" size="large">
                                             <a href="https://wa.link/8yqwfy" target="_blank" className="contact-icon">
                                             <WhatsAppIcon/> WhatsApp Us</a>
+                                    </Button> */}
+
+                                    <Button variant="contained" color="success" size="large" onClick={()=>openWhatsAppWithMessage('60183795728','Hi,I am interested to this listing :', `${window.location.href}`)}>
+                                            <WhatsAppIcon/> WhatsApp Us
                                     </Button>
+                                    
 
                                 </div>
                                 <div className="listing-info-container-2" >
@@ -104,13 +116,13 @@ const Listing = () => {
             <br/>
             <br/>
             <br/>
-            <footer class="footer">
+            <footer className="footer">
             <p className='footer-msg'>Disclaimer:This website and its owners provide information on property rental list, but do not guarantee its accuracy, completeness, 
 reliability, or availability. Use of the information is at your own risk. The website and its owners will not be liable
 for any loss or damage arising from the use of this website. The website may contain links to third-party sites, but the 
 owners have no control over their content and take no responsibility for their availability. The website owners make every
 effort to keep the site running smoothly, but will not be liable for technical issues beyond their control.</p>
-                <p class="copyright">
+                <p className="copyright">
                     Copyright &copy; Rentbases All Right Reserved
                 </p>
             </footer>
