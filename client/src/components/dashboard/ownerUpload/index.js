@@ -18,11 +18,11 @@ const OwnerUpload = () => {
                     <Link to='/auth' className="register-as-user">
                         <AppRegistrationIcon/>Register as user
                     </Link>     
-                    <br/>
-                    <br/>
-                    A validation email will be sent to your email, once verified, owner will be able to upload their property in Dashboard.
+                   
+                    , A validation email will be sent to your email, once verified, owner will be able to upload their property in Dashboard.
                     <br/> 
                     <br/>
+                    <hr/>
                     Or property owner can just whatsapp us the details here: 
                     <br/>
                     <br/>

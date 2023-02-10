@@ -33,7 +33,7 @@ const ListingCard = ({listing}) => {
                 className='card_photo'
             />
             <CardContent>
-                <Typography gutterBottom variant='h6' component="h4" className='text-center'>
+                <Typography gutterBottom variant='h6' component="h4" fontWeight="600" className='text-center'>
                     {listing.propName}
                 </Typography>
                 <hr/>

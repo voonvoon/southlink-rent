@@ -63,7 +63,7 @@ const Listing = () => {
                         }
                         
                      
-                    <h1 className="mt-4">{listings.current.propName}</h1>
+                    <h1 className="mt-4 list-prop-name">{listings.current.propName}</h1>
                     <div className="content">
                         <div>
                             
