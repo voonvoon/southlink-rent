@@ -66,7 +66,7 @@ const Home = () => {
                         owners have no control over their content and take no responsibility for their availability. The website owners make every
                         effort to keep the site running smoothly, but will not be liable for technical issues beyond their control.</p>
                 <p className="copyright">
-                    Copyright &copy; Rentbases All Right Reserved
+                    Copyright &copy; All Right Reserved
                 </p>
             </footer>
         </>

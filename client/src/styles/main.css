@@ -442,6 +442,7 @@ margin-top: 20px;
 
 .rentbase-logo {
   font-size: 30px;
+  padding: 3px;
   border: 1px solid rgb(112, 109, 109);
   box-shadow: 3px 3px 3px #999;
   border-radius: 15%;
