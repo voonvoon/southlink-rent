@@ -9,9 +9,6 @@ const OwnerUpload = () => {
     <>
         <MetaTags/>
         <div className="upload-container">
-                <Link to='/' className='navbar-brand d-flex align-items-center fredoka_ff rentbase-logo'>
-                    Southlink For Rent
-                </Link>
 
                 <div className="owner-upload">
                     Property owner who would like to  upload property to us, kindly register as a user here:  
