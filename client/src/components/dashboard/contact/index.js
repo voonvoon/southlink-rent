@@ -2,6 +2,12 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MetaTags from '../../../utils/helmet';
 import Button from '@mui/material/Button';
 
+import FaceIcon from '@mui/icons-material/Face';
+import BadgeIcon from '@mui/icons-material/Badge';
+import AddBusinessIcon from '@mui/icons-material/AddBusiness';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import EmailIcon from '@mui/icons-material/Email';
+
 const Contact = () => {
     return(
         <>
@@ -13,11 +19,11 @@ const Contact = () => {
 
             <div className='agent-details'>
                 <div className='agent-particulars'>
-                    <p>Peter Wong</p>
-                    <p>Ren No: REN 18361</p>
-                    <p>Company: PROPNEX REALTY SDN BHD (E (1) 1800)</p>
-                    <p>phone : 018-3795728</p>
-                    <p>email: hvlifeasy@gmail.com</p>
+                    <p><FaceIcon/> Name: Peter Wong</p>
+                    <p><BadgeIcon/> Ren No: REN 18361</p>
+                    <p><AddBusinessIcon/> Company: PROPNEX REALTY SDN BHD (E (1) 1800)</p>
+                    <p><LocalPhoneIcon/> phone : 018-3795728</p>
+                    <p><EmailIcon/> email: hvlifeasy@gmail.com</p>
                  
                   
                     <Button variant="contained" color="success" size="small" className='mb-3'>

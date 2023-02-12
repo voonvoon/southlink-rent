@@ -4,8 +4,8 @@ import { Helmet } from 'react-helmet';
 const MetaTags = () => {
   return (
     <Helmet>
-      <title>Rent Properties | Rentbases-find a unit for rent in bangsar south KL</title>
-      <meta name="description" content="Looking to rent property at Southlink, Novum, Southview, Bangsar South ? Search all property units for rent. Kampung Kerinchi. Kuala Lumpur." />
+      <title>Rent a Unit in Southlink, Bangsar South KL | Luxury Condominiums for Rent</title>
+      <meta name="description" content="Rent a luxurious condominium in Southlink Lifestyle Service Residence with an agent in Bangsar South, Kuala Lumpur. Book your stay now." />
       <meta name="keywords" content="bangsar, bangsarsouth ,rent, properties, condo ,rental, condominium" />
     </Helmet>
   );

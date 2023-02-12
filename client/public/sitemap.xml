@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.southlink-rent.com/</loc>
+  <lastmod>2023-02-11T08:02:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.southlink-rent.com/contact/</loc>
+  <lastmod>2023-02-11T08:02:29+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://www.southlink-rent.com/ownerupload/</loc>
+  <lastmod>2023-02-11T08:02:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.southlink-rent.com/auth/</loc>
+  <lastmod>2023-02-11T08:02:29+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://localhost:3000/listings/listing/</loc>
+  <lastmod>2023-02-11T08:02:29+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+
+
+</urlset>

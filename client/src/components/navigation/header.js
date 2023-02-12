@@ -55,9 +55,13 @@ const Header = () => {
         { !users.data.verified && users.auth ? 
             <div className='not_verified'> Not verified</div>
         : null } 
-          <nav className= {`navbar fixed-top ${site.layout} nav_mother`}>
+          <nav className= {`navbar fixed-top ${site.layout} nav_mother p-0`}>
+            
                 <Link to='/' className='navbar-brand d-flex align-items-center fredoka_ff'>
-                    Southlink For Rent
+                <div className='header-name'>
+                  <h1 className='h1'>SouthLink For Rent</h1>
+                  <h2 className='h1-2'>@bangsar South KL</h2>
+                </div>  
                 </Link>
                 <SideDrawer users={users} signOutUser={signOutUser}/>
             
