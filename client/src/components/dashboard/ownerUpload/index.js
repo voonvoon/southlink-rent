@@ -32,23 +32,15 @@ const OwnerUpload = () => {
                     <p className="data-protect-text"> **We assure you that your data will be protected and kept secure on our website.</p>
                 </div>
 
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-         <footer className="footer">
-                <p className='footer-msg'>Disclaimer:This website and its owners provide information on property rental list, but do not guarantee its accuracy, completeness, 
-                        reliability, or availability. Use of the information is at your own risk. The website and its owners will not be liable
-                        for any loss or damage arising from the use of this website. The website may contain links to third-party sites, but the 
-                        owners have no control over their content and take no responsibility for their availability. The website owners make every
-                        effort to keep the site running smoothly, but will not be liable for technical issues beyond their control.</p>
+           
+            <footer className="footer">
                 <p className="copyright">
                     Copyright &copy; All Right Reserved
                 </p>
+
+                <Link to='/policy' className='policy'>
+                        Disclaimer and Use of Policy
+                </Link>
             </footer>
         </div>
     </>

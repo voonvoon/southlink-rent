@@ -2,6 +2,8 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MetaTags from '../../../utils/helmet';
 import Button from '@mui/material/Button';
 
+import { Link } from 'react-router-dom';
+
 import FaceIcon from '@mui/icons-material/Face';
 import BadgeIcon from '@mui/icons-material/Badge';
 import AddBusinessIcon from '@mui/icons-material/AddBusiness';
@@ -49,14 +51,13 @@ const Contact = () => {
 
        
         <footer className="footer">
-                <p className='footer-msg'>Disclaimer:This website and its owners provide information on property rental list, but do not guarantee its accuracy, completeness, 
-                        reliability, or availability. Use of the information is at your own risk. The website and its owners will not be liable
-                        for any loss or damage arising from the use of this website. The website may contain links to third-party sites, but the 
-                        owners have no control over their content and take no responsibility for their availability. The website owners make every
-                        effort to keep the site running smoothly, but will not be liable for technical issues beyond their control.</p>
                 <p className="copyright">
                     Copyright &copy; All Right Reserved
                 </p>
+
+                <Link to='/policy' className='policy'>
+                        Disclaimer and Use of Policy
+                </Link>
             </footer>
         </>
     )
