@@ -16,6 +16,7 @@ import VpnKeyIcon from '@mui/icons-material/VpnKey';
 import VpnKeyOffIcon from '@mui/icons-material/VpnKeyOff';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import BusinessIcon from '@mui/icons-material/Business';
+import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 
 const SideDrawer = ({users, signOutUser}) => {
     const [state, setState] = useState(false);
@@ -42,13 +43,13 @@ const SideDrawer = ({users, signOutUser}) => {
                         <ListItem
                             button
                             component={RouterLink}
-                            to="/contact"
+                            to="/intro"
                             onClick={()=> setState(false)}
                         >
                             <ListItemIcon>
-                                <MailIcon/>
+                                <BusinessIcon/>
                             </ListItemIcon>
-                            <ListItemText primary="Contact Us"/>
+                            <ListItemText primary="Property Introduction"/>
                         </ListItem>
 
                         <ListItem
@@ -56,11 +57,24 @@ const SideDrawer = ({users, signOutUser}) => {
                             component={RouterLink}
                             to="/ownerupload"
                             onClick={()=> setState(false)}
+                            title="Property owner provide their unit for us to rent."
                         >
                             <ListItemIcon>
-                                <BusinessIcon/>
+                                <EmojiPeopleIcon/>
                             </ListItemIcon>
-                            <ListItemText primary="Owner upload property"/>
+                            <ListItemText primary="Provide Unit For Rent"/>
+                        </ListItem>
+
+                        <ListItem
+                            button
+                            component={RouterLink}
+                            to="/contact"
+                            onClick={()=> setState(false)}
+                        >
+                            <ListItemIcon>
+                                <MailIcon/>
+                            </ListItemIcon>
+                            <ListItemText primary="Contact Us"/>
                         </ListItem>
 
 

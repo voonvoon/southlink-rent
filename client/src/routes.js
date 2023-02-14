@@ -22,6 +22,7 @@ import EditListing from './components/dashboard/listing/edit_add/edit';
 import OwnerAddLising from '../src/components/dashboard/listing/edit_add/ownerAdd';
 import OwnerUpload from './components/dashboard/ownerUpload';
 import Policy from './components/policy';
+import Southlink from './components/southlink';
 
 import AuthGuard from './hoc/authGuard';
 import PreventSignIn from './hoc/preventSignIn';
@@ -65,6 +66,7 @@ const Router = () => {
           </Route>
 
           {/* <Route path='/dashboard/owner/listing/add' element={<OwnerAddLising/>}/> */}
+          <Route path='/intro' element={<Southlink/>}/>
           <Route path='/policy' element={<Policy/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/ownerupload' element={<OwnerUpload/>}/>

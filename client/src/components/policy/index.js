@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 const Policy = () => {
   return (
     <>
@@ -22,7 +24,7 @@ const Policy = () => {
         <br />
 
         <div className="use-policy">
-          <h3>Use Policy</h3>
+          <h3>Terms Of Use</h3>
           Welcome to this platform, a platform for listing available
           condominiums for rent. The information and materials on this website
           are provided for informational purposes only. Please read the
@@ -76,6 +78,22 @@ const Policy = () => {
           use policy, please do not use this website.
         </div>
       </div>
+      <br/>
+
+      <footer className="footer">
+                <p className="copyright">
+                    Copyright &copy; All Right Reserved
+                </p>
+                <div className='d-flex'>
+                    <Link to='/policy' className='policy'>
+                            Disclaimer | Terms Of Use  |
+                    </Link>
+                        
+                    <Link to='/intro' className='policy'>
+                            Property Introduction
+                    </Link>
+                </div>
+            </footer>
     </>
   );
 };
