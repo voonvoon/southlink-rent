@@ -32,10 +32,11 @@ const ListingCard = ({listing}) => {
                 title="some title"
                 className='card_photo'
             />
-            <CardContent>
-                <Typography gutterBottom variant='h6' component="h3" fontWeight="600" className='text-center'>
+            <CardContent className='p-0'>
+                <Typography gutterBottom variant='h6' component="h3" fontWeight="600" className='text-center mb-0'>
                     {listing.propName}
                 </Typography>
+                <p className="mb-0 text-center">Jalan Kerinchi Kiri 2, Bangsar South KL</p>
                 <hr/>
                 <div className='list-card-items'>
                     <div className='list-card-items-children'>
@@ -61,7 +62,7 @@ const ListingCard = ({listing}) => {
             </CardContent>
             <hr/>
     
-                <CardActions>
+                <CardActions className='p-0'>
                     <div>
                         <IconButton>
                             <MapsHomeWorkIcon/>

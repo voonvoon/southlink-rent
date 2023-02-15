@@ -4,6 +4,8 @@ import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 import MetaTags from "../../../utils/helmet";
 import Button from '@mui/material/Button';
 
+import SocialIcons from "../../home/social";
+
 const OwnerUpload = () => {
     return(
     <>
@@ -32,7 +34,9 @@ const OwnerUpload = () => {
                     <p className="data-protect-text"> **We assure you that your data will be protected and kept secure on our website.</p>
                 </div>
 
-           
+                
+        </div>
+        <SocialIcons />
                 <footer className="footer">
                     <p className="copyright">
                         Copyright &copy; All Right Reserved
@@ -51,7 +55,6 @@ const OwnerUpload = () => {
                     </Link>
                     </div>
             </footer>
-        </div>
     </>
     )
 

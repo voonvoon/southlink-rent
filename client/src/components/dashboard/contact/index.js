@@ -10,6 +10,8 @@ import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 
+import SocialIcons from "../../home/social";
+
 const Contact = () => {
   return (
     <>
@@ -76,10 +78,8 @@ const Contact = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      
+      <SocialIcons/>
 
       <footer className="footer">
         <p className="copyright">Copyright &copy; All Right Reserved</p>

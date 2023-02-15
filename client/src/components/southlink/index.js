@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import CarouselFadeExample from "./gallary";
+import SocialIcons from '../home/social';
 
 const Southlink = () => {
   return (
@@ -97,7 +98,7 @@ const Southlink = () => {
       </div>
         <br/>
         
-        
+        <SocialIcons/>
         <footer className="footer">
                 <p className="copyright">
                     Copyright &copy; All Right Reserved

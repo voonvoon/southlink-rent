@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {homeLoadMore } from '../../store/actions/listings';
 
 import ListingCard from '../../utils/listingCard';
+import SocialIcons from './social';
 
 const Home = () => {
     const listings = useSelector(state=>state.listings);
@@ -52,10 +53,10 @@ const Home = () => {
             </Button>
             <br/>
             <br/>
-            <br/>
+            
 
           
-            
+            <SocialIcons/>
             <footer className="footer">
                 <p className="copyright">
                     Copyright &copy; All Right Reserved

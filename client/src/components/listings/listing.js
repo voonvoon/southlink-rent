@@ -19,6 +19,8 @@ import UpdateIcon from '@mui/icons-material/Update';
 import Carousel from 'react-bootstrap/Carousel';
 
 import moment from 'moment';
+import SocialIcons from "../home/social";
+
 
 
 const Listing = () => {
@@ -64,6 +66,7 @@ const Listing = () => {
                         
                      
                     <h1 className="mt-4 list-prop-name">{listings.current.propName}</h1>
+                    <p className="mb-0">Jalan Kerinchi Kiri 2, Bangsar South KL</p>
                     <div className="content">
                         <div>
                             
@@ -115,6 +118,7 @@ const Listing = () => {
             <br/>
             <br/>
            
+           <SocialIcons/>
             <footer className="footer">
                 <p className="copyright">
                     Copyright &copy; All Right Reserved
