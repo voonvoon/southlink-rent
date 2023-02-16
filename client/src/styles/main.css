@@ -465,7 +465,7 @@ margin-top: 20px;
   margin-top: -10px;
   margin-left: 5%;
   padding: 10px;
-  font-size: 17px;  
+  font-size: 18px;  
   font-weight: 400;
   text-align:left;
 
@@ -549,15 +549,11 @@ margin-top: 20px;
  font-weight: 300;
 }
 
-.team-pro {
-  font-size: 18px;
-  font-weight: 400;
-}
-
 .about-us-description {
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
 }
+
 
 .social-icons{
   display: flex;
@@ -611,7 +607,7 @@ margin-top: 20px;
   }
 
   .agent-particulars > * {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   
@@ -638,7 +634,17 @@ margin-top: 20px;
   .image-intro {
     height: 250px;
   }
+
+  .about-us-description {
+    font-size: 13px;
+  }
+
+  .data-protect-text{
+    font-size: 12px;
+  }
  }
+
+ 
 
  @media (max-width : 450px) {
   .h1 {
@@ -650,7 +656,7 @@ margin-top: 20px;
   }
   
   .owner-upload{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     text-align:left;
   

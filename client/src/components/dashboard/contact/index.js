@@ -27,10 +27,7 @@ const Contact = () => {
           work tirelessly to ensure their experience is smooth and successful.
         </p>
         <hr />
-        <h4 className="team-pro">
-          As a professional property agent, We assist both tenants and landlords
-          in finding and renting units.
-        </h4>
+       
 
         <div className="agent-details">
           <div className="agent-particulars">

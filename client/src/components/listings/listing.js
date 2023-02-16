@@ -20,6 +20,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import moment from 'moment';
 import SocialIcons from "../home/social";
+import Location from "../location";
 
 
 
@@ -100,12 +101,16 @@ const Listing = () => {
                                     
 
                                 </div>
+                                
                                 <div className="listing-info-container-2" >
+                                <h5 className="m-0 text-center font-weight-bold text-decoration-underline">Description</h5>
 
                                     <div dangerouslySetInnerHTML={{ __html: listings.current.description.replace(/\n/g, '<br />') }} />
                                 </div>
                                 
+
                             </div>
+                                <Location />
                             <hr/>
                         </div>
                     </div>

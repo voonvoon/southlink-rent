@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom'
 import CarouselFadeExample from "./gallary";
 import SocialIcons from '../home/social';
+import Location from '../location';
 
 const Southlink = () => {
   return (
@@ -84,6 +85,7 @@ const Southlink = () => {
           Apartments an ideal choice for those seeking a convenient and modern
           lifestyle.
         </p>
+        <Location/>
 
         <h3>Developer Details</h3>
         <p>
