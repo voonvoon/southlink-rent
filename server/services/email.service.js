@@ -25,7 +25,7 @@ const registerEmail = async(userEmail,user) => {
         const email = {
             body:{
                 name: userEmail,
-                intro: 'Welcome to Rentbase we\'re very excited to have you on board.',
+                intro: 'Welcome to Southlink For Rent we\'re very excited to have you on board.',
                 action:{
                     instructions:'To validate your account, please click here:',
                     button:{

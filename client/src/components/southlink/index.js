@@ -2,9 +2,12 @@ import {Link} from 'react-router-dom'
 import CarouselFadeExample from "./gallary";
 import SocialIcons from '../home/social';
 import Location from '../location';
+import MetaTags from '../../utils/helmet';
 
 const Southlink = () => {
   return (
+    <>
+    <MetaTags/>
     <div className="intro-container">
       <div className="photo-container">
         <h4>Introduction</h4>
@@ -120,7 +123,9 @@ const Southlink = () => {
                 </div>
             </footer>
     </div>
+    </>
   );
 };
+
 
 export default Southlink;

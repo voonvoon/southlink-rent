@@ -69,7 +69,7 @@ const Router = () => {
           <Route path='/intro' element={<Southlink/>}/>
           <Route path='/policy' element={<Policy/>}/>
           <Route path='/contact' element={<Contact/>}/>
-          <Route path='/ownerupload' element={<OwnerUpload/>}/>
+          <Route path='/owner-upload' element={<OwnerUpload/>}/>
           <Route path='/verification' element={<AccountVerify/>}/>
           <Route path='/listings/listing/:id' element={<Listing/>} />
           <Route path='/auth' element={

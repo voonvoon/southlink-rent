@@ -67,11 +67,10 @@ const Listing = () => {
                         
                      
                     <h1 className="mt-4 list-prop-name">{listings.current.propName}</h1>
-                    <p className="mb-0">Jalan Kerinchi Kiri 2, Bangsar South KL</p>
+                    <p className="mb-0 address">Jalan Kerinchi Kiri 2, Bangsar South KL</p>
                     <div className="content">
                         <div>
                             
-                            <hr/>
                             <div className="listing-info-container">
                                 <div className="listing-info-container-1">
                                     <div className="listing-items">
@@ -114,8 +113,9 @@ const Listing = () => {
                             <hr/>
                         </div>
                     </div>
-
+                    <SocialIcons/>
                 </div>
+                
             :
             <Loader/>
  
@@ -123,7 +123,7 @@ const Listing = () => {
             <br/>
             <br/>
            
-           <SocialIcons/>
+           
             <footer className="footer">
                 <p className="copyright">
                     Copyright &copy; All Right Reserved

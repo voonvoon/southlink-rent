@@ -55,7 +55,7 @@ const SideDrawer = ({users, signOutUser}) => {
                         <ListItem
                             button
                             component={RouterLink}
-                            to="/ownerupload"
+                            to="/owner-upload"
                             onClick={()=> setState(false)}
                             title="Property owner provide their unit for us to rent."
                         >

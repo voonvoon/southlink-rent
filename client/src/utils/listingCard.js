@@ -33,7 +33,7 @@ const ListingCard = ({listing}) => {
                 className='card_photo'
             />
             <CardContent className='p-0'>
-                <Typography gutterBottom variant='h6' component="h3" fontWeight="600" className='text-center mb-0'>
+                <Typography gutterBottom variant='h5' component="h4" fontWeight="700" fontSize="18px" className='text-center mb-0'>
                     {listing.propName}
                 </Typography>
                 <p className="mb-0 text-center">Jalan Kerinchi Kiri 2, Bangsar South KL</p>

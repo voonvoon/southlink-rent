@@ -48,15 +48,16 @@ const Home = () => {
             <Button
                 variant='outlined'
                 onClick={getNextListings}
+                className='load-more'
             >
                 Load More
             </Button>
             <br/>
             <br/>
             
-
-          
             <SocialIcons/>
+      
+            
             <footer className="footer">
                 <p className="copyright">
                     Copyright &copy; All Right Reserved
