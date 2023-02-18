@@ -21,10 +21,9 @@ import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 import WeekendIcon from '@mui/icons-material/Weekend';
 
 
-
 const ListingCard = ({listing}) => {
     return(
-    <Badge.Ribbon text={`since ${moment(listing.date).fromNow()}`} color="purple">
+    <Badge.Ribbon text={`${moment(listing.date).fromNow()}`} color="green">
         <Card elevation={6}>
             <CardMedia 
                 style={{height:0,paddingTop:'56.25%'}}
@@ -33,10 +32,10 @@ const ListingCard = ({listing}) => {
                 className='card_photo'
             />
             <CardContent className='p-0'>
-                <Typography gutterBottom variant='h5' component="h4" fontWeight="700" fontSize="18px" className='text-center mb-0'>
+                <Typography gutterBottom variant='h5' component="h4" fontWeight="700" fontSize="14px" className='text-center mb-0 pt-2'>
                     {listing.propName}
                 </Typography>
-                <p className="mb-0 text-center">Jalan Kerinchi Kiri 2, Bangsar South KL</p>
+                <p className="mb-0 text-center card-address">Jalan Kerinchi Kiri 2, Bangsar South KL</p>
                 <hr/>
                 <div className='list-card-items'>
                     <div className='list-card-items-children'>
