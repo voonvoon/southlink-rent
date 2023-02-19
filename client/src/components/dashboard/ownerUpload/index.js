@@ -13,7 +13,7 @@ const OwnerUpload = () => {
         <div className="upload-container">
 
                 <div className="owner-upload">
-                    Property owner who would like to  upload property to us, kindly register as a user here:  
+                    Property owner who would like to list their property to us, kindly register as a user here:  
                     <Link to='/auth' className="register-as-user">
                         <AppRegistrationIcon/>Register as user
                     </Link>     

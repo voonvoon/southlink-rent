@@ -14,6 +14,7 @@ import {homeLoadMore } from '../../store/actions/listings';
 
 import ListingCard from '../../utils/listingCard';
 import SocialIcons from './social';
+import IosShareIcon from '@mui/icons-material/IosShare';
 
 const Home = () => {
     const listings = useSelector(state=>state.listings);
@@ -31,10 +32,12 @@ const Home = () => {
     }
 
     return(
-        <>
+        <div className='home-container'>
         <MetaTags/>
-
-            <Grid container spacing={2} className="article_card">
+        <Link to='/owner-upload' className='header-owner-upload'>
+               <IosShareIcon className='center'/> List your property to us
+        </Link>
+            <Grid container spacing={2} className="mt-0 article_card">
                 { listings && listings.listings ? 
                     listings.listings.map(item=>(
                         <Grid key={item._id} item xs={12} sm={6} lg={3}>
@@ -54,7 +57,7 @@ const Home = () => {
             </Button>
             <br/>
             <br/>
-            
+         
             <SocialIcons/>
       
             
@@ -76,7 +79,7 @@ const Home = () => {
                     </Link>
                 </div>
             </footer>
-        </>
+        </div>
     )
 }
 

@@ -568,6 +568,27 @@ margin-top: 20px;
   font-style: italic;
 }
 
+.home-container {
+  position:relative;
+}
+
+.header-owner-upload{
+  position: absolute;
+  margin-top: -20px;
+  background: #f7941d;
+  border-radius: 3rem;
+  padding: 3px;
+  text-decoration: none;
+  color: white !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.header-owner-upload:hover {
+  box-shadow: 6px 6px 8px rgba(23, 22, 22, 0.2);
+}
+
+
 @keyframes delay-animation {
   0% {
     opacity: 0; /* start with the component hidden */
