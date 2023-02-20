@@ -572,17 +572,29 @@ margin-top: 20px;
   position:relative;
 }
 
+@keyframes upload-animate {
+  0% { transform: scale(1); } /* Start the animation with original size */
+  50% { transform: scale(1.03); } /* Scale the element up to 1.2 times */
+  100% { transform: scale(1); } /* Return to the original size */
+}
+
 .header-owner-upload{
   position: absolute;
   margin-top: -20px;
-  background: #f7941d;
+  background: #4e6ed9;
   border-radius: 3rem;
   padding: 3px;
   text-decoration: none;
   color: white !important;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
+  animation-name: upload-animate; /* Specify the animation name */
+  animation-duration: 1s; /* Set the duration of the animation */
+  animation-iteration-count: infinite; /* Make the animation repeat indefinitely */
+
 }
+
+
 
 .header-owner-upload:hover {
   box-shadow: 6px 6px 8px rgba(23, 22, 22, 0.2);
@@ -622,6 +634,13 @@ margin-top: 20px;
 .card-address{
   font-size: 10px;
 
+}
+
+.view-property {
+  display: flex;
+  text-align: center;
+  justify-content: center ;
+  margin-top:-15px;
 }
 
 /* .articles_table .table-striped>tbody>tr:nth-of-type(odd)>* {

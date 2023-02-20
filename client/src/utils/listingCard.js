@@ -61,7 +61,7 @@ const ListingCard = ({listing}) => {
             </CardContent>
             <hr/>
     
-                <CardActions className='p-0'>
+                <CardActions className='p-0 view-property'>
                     <div>
                         <IconButton>
                             <MapsHomeWorkIcon/>
@@ -69,10 +69,11 @@ const ListingCard = ({listing}) => {
                         <Button
                             size="small"
                             color="primary"
+                            title='Click to view property details'
                             component={RouterLink}
                             to={`/listings/listing/${listing._id}`}
                         >
-                            View Property
+                           <strong> View Property</strong>
                         </Button>
                     </div>
                 </CardActions>

@@ -34,8 +34,8 @@ const Home = () => {
     return(
         <div className='home-container'>
         <MetaTags/>
-        <Link to='/owner-upload' className='header-owner-upload'>
-               <IosShareIcon className='center'/> List your property to us
+        <Link to='/owner-upload' className='header-owner-upload' title='owners welcome to list their property here'>
+               <IosShareIcon className='center'/> List your property to us  
         </Link>
             <Grid container spacing={2} className="mt-0 article_card">
                 { listings && listings.listings ? 
@@ -52,6 +52,7 @@ const Home = () => {
                 variant='outlined'
                 onClick={getNextListings}
                 className='load-more'
+                title='Click to view more property for available!'
             >
                 Load More
             </Button>
