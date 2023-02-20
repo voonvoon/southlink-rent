@@ -24,7 +24,7 @@ import WeekendIcon from '@mui/icons-material/Weekend';
 const ListingCard = ({listing}) => {
     return(
     <Badge.Ribbon text={`${moment(listing.date).fromNow()}`} color="green">
-        <Card elevation={6}>
+        <Card elevation={3} className='card-wrapper' >
             <CardMedia 
                 style={{height:0,paddingTop:'56.25%'}}
                 image={`${listing.images[0]}`}

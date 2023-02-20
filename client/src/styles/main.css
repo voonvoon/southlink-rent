@@ -579,7 +579,8 @@ margin-top: 20px;
 }
 
 .header-owner-upload{
-  position: absolute;
+  position: fixed;
+  z-index: 10;
   margin-top: -20px;
   background: #4e6ed9;
   border-radius: 3rem;
@@ -643,6 +644,16 @@ margin-top: 20px;
   margin-top:-15px;
 }
 
+
+.card-wrapper {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Define the styles for when the mouse hovers over the element */
+.card-wrapper:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
 /* .articles_table .table-striped>tbody>tr:nth-of-type(odd)>* {
   color: white;
 } */
