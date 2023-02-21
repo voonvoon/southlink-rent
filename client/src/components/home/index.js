@@ -35,7 +35,7 @@ const Home = () => {
         <div className='home-container'>
         <MetaTags/>
         <Link to='/owner-upload' className='header-owner-upload' title='owners welcome to list their property here'>
-               <IosShareIcon className='center'/> List your property to us  
+               <IosShareIcon className='center'/> List your property with us  
         </Link>
             <Grid container spacing={2} className="mt-0 article_card">
                 { listings && listings.listings ? 

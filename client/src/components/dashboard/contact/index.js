@@ -2,13 +2,15 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MetaTags from "../../../utils/helmet";
 import Button from "@mui/material/Button";
 
+import ContactForm from "./contactForm";
+
 import { Link } from "react-router-dom";
 
-import FaceIcon from "@mui/icons-material/Face";
-import BadgeIcon from "@mui/icons-material/Badge";
-import AddBusinessIcon from "@mui/icons-material/AddBusiness";
-import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import EmailIcon from "@mui/icons-material/Email";
+// import FaceIcon from "@mui/icons-material/Face";
+// import BadgeIcon from "@mui/icons-material/Badge";
+// import AddBusinessIcon from "@mui/icons-material/AddBusiness";
+// import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+// import EmailIcon from "@mui/icons-material/Email";
 
 import SocialIcons from "../../home/social";
 
@@ -17,7 +19,7 @@ const Contact = () => {
     <>
       <MetaTags />
       <div>
-        <h1>About US</h1>
+        <h2>About US</h2>
         <p className="about-us-description">
           As a specialized property agent focused on the Southlink Lifestyle
           Service Apartment, We manage this website exclusively for those looking
@@ -29,7 +31,7 @@ const Contact = () => {
         <hr />
        
 
-        <div className="agent-details">
+        {/* <div className="agent-details">
           <div className="agent-particulars">
             <p>
               <FaceIcon /> Name: Peter Wong
@@ -68,9 +70,13 @@ const Contact = () => {
             alt="My Image"
             className="agent_pic"
           />
-        </div>
-
-        <hr />
+        </div> */}
+          
+        {/* <hr /> */}
+        <h3 className="text-center mb-4">Contact Us</h3>
+       
+        <ContactForm/>
+       
       </div>
       <br />
       <br />

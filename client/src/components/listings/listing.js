@@ -21,6 +21,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import moment from 'moment';
 import SocialIcons from "../home/social";
 import Location from "../location";
+import ContactForm from "../dashboard/contact/contactForm";
 
 
 
@@ -111,8 +112,11 @@ const Listing = () => {
                             </div>
                                 <Location />
                             <hr/>
+                            <h5 className="text-center mb-4">Send Us Your Inquiry</h5>
+                              <ContactForm/>
                         </div>
                     </div>
+                    <br/>
                     <SocialIcons/>
                 </div>
                 
@@ -120,9 +124,7 @@ const Listing = () => {
             <Loader/>
  
             }
-            <br/>
-            <br/>
-           
+        
            
             <footer className="footer">
                 <p className="copyright">

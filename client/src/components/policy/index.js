@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Policy = () => {
   return (
@@ -13,12 +13,12 @@ const Policy = () => {
           over their content and take no responsibility for their availability.
           The website owners make every effort to keep the site running
           smoothly, but will not be liable for technical issues beyond their
-          control. This website is not affiliated with any other entity with a similar
-          name. The information and materials on this website are provided "as
-          is" and we make no representations or warranties of accuracy or
-          completeness. Your use of this website is at your own risk and we
-          shall not be liable for any damages arising from the use of this
-          website.
+          control. This website is not affiliated with any other entity with a
+          similar name. The information and materials on this website are
+          provided "as is" and we make no representations or warranties of
+          accuracy or completeness. Your use of this website is at your own risk
+          and we shall not be liable for any damages arising from the use of
+          this website.
         </div>
 
         <br />
@@ -72,28 +72,40 @@ const Policy = () => {
           posted constitutes your acceptance of the new use policy.
           <br />
           <br />
-          By using this website, you acknowledge that you have read and
-          understand this use policy and agree to be bound by its terms and
-          conditions. If you do not agree with the terms and conditions of this
-          use policy, please do not use this website.
+          6.Cookie. When you register and log in to our website, we store cookies on
+          your device. Cookies are small text files that are stored on your
+          device when you visit our website. They are used to help provide a
+          better user experience and to personalize your experience on our
+          website. We use both first-party and third-party cookies to help
+          provide analytics, authentication, security, preferences, and
+          advertising. First-party cookies are set by our website, while
+          third-party cookies are set by other websites that provide services on
+          our website. We use both session cookies, which expire when you close
+          your browser, and persistent cookies, which stay on your device until
+          they expire or you delete them. 
+          <br/>
+          <br/>
+          
+          By using this website, you acknowledge
+          that you have read and understand this use policy and agree to be
+          bound by its terms and conditions. If you do not agree with the terms
+          and conditions of this use policy, please do not use this website.
         </div>
       </div>
-      <br/>
+      <br />
 
       <footer className="footer">
-                <p className="copyright">
-                    Copyright &copy; All Right Reserved
-                </p>
-                <div className='d-flex'>
-                    <Link to='/policy' className='policy'>
-                            Disclaimer | Terms Of Use  |
-                    </Link>
-                        
-                    <Link to='/intro' className='policy'>
-                            Property Introduction
-                    </Link>
-                </div>
-            </footer>
+        <p className="copyright">Copyright &copy; All Right Reserved</p>
+        <div className="d-flex">
+          <Link to="/policy" className="policy">
+            Disclaimer | Terms Of Use |
+          </Link>
+
+          <Link to="/intro" className="policy">
+            Property Introduction
+          </Link>
+        </div>
+      </footer>
     </>
   );
 };

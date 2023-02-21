@@ -654,16 +654,66 @@ margin-top: 20px;
 .card-wrapper:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-/* .articles_table .table-striped>tbody>tr:nth-of-type(odd)>* {
+
+/* Contact-form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  font-size: 1rem;
+}
+
+.contact-form label {
+  font-weight: 300;
+  margin:1px;
+  margin-top:-5px;
+  display: flex;
+  align-items:center;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: -0.7rem;
+  padding: 0.1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ccc;
+  font-size: inherit;
+  width: 100%;
+}
+
+.contact-form button {
+  /* margin-top: 1rem; */
+  /* padding: 0.5rem 1rem; */
+  border-radius: 0.5rem;
+  background-color: #0077ff;
   color: white;
-} */
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
 
-/* @media (max-width: 800px) {
+.contact-form button:hover {
+  background-color: #0053c6;
+}
 
-  .ownstyle {
-    width: 100%;
-  }
-} */
+.contact-form input:hover {
+  border:2px solid rgb(161, 183, 245);
+
+}
+
+.contact-form textarea:hover {
+  border:2px solid rgb(161, 183, 245);
+}
+
+.form-details {
+  font-size:15px; 
+  margin-right: 5px;
+}
+/* End of contact form */
+
+
  @media (max-width: 600px) {
   .list-card-items {
     align-items:center;
