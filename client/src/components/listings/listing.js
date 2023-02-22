@@ -35,6 +35,10 @@ const Listing = () => {
         dispatch(getListing(id))
     },[id, dispatch])
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     const openWhatsAppWithMessage = (phoneNumber, message1, message2) => {
         const combinedMessage = `${message1}\n\n${message2}`;
         window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(combinedMessage)}`, '_blank');

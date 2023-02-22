@@ -4,7 +4,14 @@ import SocialIcons from '../home/social';
 import Location from '../location';
 import MetaTags from '../../utils/helmet';
 
+import React, { useEffect } from 'react';
+
 const Southlink = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
     <MetaTags/>

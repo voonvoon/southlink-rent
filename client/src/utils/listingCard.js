@@ -40,7 +40,7 @@ const ListingCard = ({listing}) => {
                 <div className='list-card-items'>
                     <div className='list-card-items-children'>
                         <MonetizationOnIcon/>
-                        RM {listing.rental}
+                       <div>RM {listing.rental}/mth</div> 
                     </div>
 
                     <div className='list-card-items-children'>
@@ -50,7 +50,7 @@ const ListingCard = ({listing}) => {
 
                     <div className='list-card-items-children'>
                         <BedroomParentIcon/>
-                    Rooms: {listing.numberBedRooms}
+                    Rooms:{listing.numberBedRooms}
                     </div>
 
                     <div className='list-card-items-children'>

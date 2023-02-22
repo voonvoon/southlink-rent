@@ -5,6 +5,7 @@ import Button from "@mui/material/Button";
 import ContactForm from "./contactForm";
 
 import { Link } from "react-router-dom";
+import React, { useEffect } from 'react';
 
 // import FaceIcon from "@mui/icons-material/Face";
 // import BadgeIcon from "@mui/icons-material/Badge";
@@ -15,6 +16,11 @@ import { Link } from "react-router-dom";
 import SocialIcons from "../../home/social";
 
 const Contact = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <MetaTags />
