@@ -148,7 +148,22 @@ const picUpload = async(req) => {
     try{
         const upload = await cloudinary.uploader.upload(req.files.file.path, {
             public_id:`${Date.now()}`,
-            folder:'rentbase_upload'
+            folder:'rentbase_upload',
+            transformation: [
+                { width: 800, height: 800, crop: "limit" }, // set the desired image size
+              
+                { 
+                    overlay: { 
+                        font_family: "Arial", 
+                        font_size: 25, 
+                        text: "Southlink-Rent.com", // set the text for the watermark
+                        font_color: "#FFFFFF", // set the font color to white using hexadecimal code
+                    }, 
+                    gravity: "south", 
+                    y: 50, // set the y-offset for the watermark
+                    x: -50
+                },
+            ],
         });
 
         console.log(upload)
