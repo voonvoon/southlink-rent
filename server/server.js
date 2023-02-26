@@ -31,6 +31,16 @@ app.use(mongoSanitize());
 app.use(passport.initialize());
 passport.use('jwt',jwtStrategy);
 
+//redicet to https
+app.use((req, res, next) => {
+    if (req.header('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === 'production') {
+      res.redirect(`https://${req.header('host')}${req.url}`);
+    } else {
+      next();
+    }
+  });
+  
+
 // routes
 app.use('/api',routes)  // everytime use /api , use routes 
 
